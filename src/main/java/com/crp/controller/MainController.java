@@ -16,6 +16,7 @@ public class MainController {
 
     @RequestMapping("/index")
     public String welcomeIndex(){
+        log.info("测试日志！");
         return "hello java";
     }
 
